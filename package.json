@@ -1,0 +1,21 @@
+{
+  "name": "servidor-com-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Davi Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
