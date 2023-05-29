@@ -1,16 +1,11 @@
 {
   "name": "servidor-com-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
     "lint": "eslint **/*.js --ignore-pattern node_modules/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "Davi Ferreira",
-  "license": "ISC",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -18,9 +13,5 @@
     "http-errors": "~1.6.3",
     "jade": "^0.29.0",
     "morgan": "~1.9.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.41.0",
-    "eslint-config-google": "^0.14.0"
   }
 }
