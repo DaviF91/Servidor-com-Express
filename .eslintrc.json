@@ -11,7 +11,8 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": 0,
+    // "linebreak-style": ["error", "windows"],
     "new-cap": 0
     }
 }
